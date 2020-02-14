@@ -19,25 +19,34 @@
         We’ve prepared a special list of courses so that you can easily start
         with CSS styles. Feel free to filter them by level of advancement.
       </p>
-      <ul class="info__filters filters">
+      <ul class="info__filters filters ">
         <li class="filters__item">
-          <button class="filters__button">all</button>
+          <button
+            class="filters__button filters__button--active"
+            data-level="all"
+          >
+            all
+          </button>
         </li>
         <li class="filters__item">
-          <button class="filters__button">beginner</button>
+          <button class="filters__button" data-level="beginner">
+            beginner
+          </button>
         </li>
         <li class="filters__item">
-          <button class="filters__button">developer</button>
+          <button class="filters__button" data-level="developer">
+            developer
+          </button>
         </li>
         <li class="filters__item">
-          <button class="filters__button">expert</button>
+          <button class="filters__button" data-level="expert">expert</button>
         </li>
       </ul>
     </div>
     <div class="container">
-      <div class="item">
+      <div class="item" data-level="beginner">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (beginner)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -47,9 +56,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="expert">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (expert)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -59,9 +68,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="beginner">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (beginner)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -71,9 +80,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="developer">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (developer)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -83,9 +92,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="developer">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (developer)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -95,9 +104,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="beginner">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (beginner)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -107,9 +116,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="expert">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (expert)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -119,9 +128,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="developer">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (developer)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -131,9 +140,9 @@
           <button class="item__button button">take the course</button>
         </div>
       </div>
-      <div class="item">
+      <div class="item" data-level="expert">
         <div class="item__header">
-          <h2 class="item__title">Intro to CSS layouts</h2>
+          <h2 class="item__title">Intro to CSS layouts (expert)</h2>
         </div>
         <div class="item__content">
           <p class="item__paragraph">
@@ -144,6 +153,7 @@
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
