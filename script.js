@@ -32,8 +32,6 @@ $(".filters__button").click(function() {
   $(".filters__button").removeClass("filters__button--active");
   $(this).addClass("filters__button--active");
   const dataLevel = $(this).data("level");
-  console.log(dataLevel);
-
   if (dataLevel === "all") {
     $(".item").show();
   } else {
